@@ -14,8 +14,9 @@ Tested scenarios:
 
 Limitations : 
 1. All packages checked on repository https://registry.npmjs.org
-2. There is no check for package version in current implementation - always queriing for latest 
+2. There is no check for package version in current implementation - always querying for latest 
 3. There is no caching implemented
+4. For each pacakge scanned only 'dependencies' and NOT 'dev-dependencies'
 
 
   
