@@ -7,6 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 var app = express();
+app.use(express.static('client'));
 
 app.get('/packages/:package', async function (req, res) {
   let pkgName = req.params.package;
