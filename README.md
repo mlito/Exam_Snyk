@@ -1,6 +1,6 @@
 # Exam_Snyk
 It assumed that nodejs installed on the PC where running  
-Manual : 
+Manual :   
 1.In cmd line Go local folder of the project   
 2.Run npm install command  
 3.Run npm start command  
