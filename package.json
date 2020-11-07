@@ -1,0 +1,19 @@
+{
+  "name": "snykexam",
+  "version": "1.0.0",
+  "description": "Exam for Snyk",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Michael Litovsky",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "async": "^3.2.0",
+    "async-while": "^1.1.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "queue-fifo": "^0.2.6"
+  }
+}
